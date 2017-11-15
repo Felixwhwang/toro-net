@@ -14,7 +14,7 @@ module.exports = function (passport) {
   })
 
   /* GitHub authentication strategy using OAuth tokens. */
-  if (process.env.GITHUB_CLIENT_ID) passport.use(new GitHubStrategy({
+  passport.use(new GitHubStrategy({
     clientID: process.env.GITHUB_ID,
     clientSecret: process.env.GITHUB_SECRET,
     callbackURL: process.env.APP_URL+'auth/github/callback'
