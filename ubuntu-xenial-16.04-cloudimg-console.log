@@ -29,7 +29,7 @@
 [    0.000000] MTRR: Disabled
 [    0.000000] x86/PAT: MTRRs disabled, skipping PAT initialization too.
 [    0.000000]CPU MTRRs all blank - virtualized system.
-[    0.000000] x86/PAT: Configuration [0-7]: WB  WT  UC- UC  WB  WT  UC- UC  
+[    0.000000] x86/PAT: Configuration [0-7]: WB  WT  UC- UC  WB  WT  UC- UC
 [    0.000000] found SMP MP-table at [mem 0x0009fff0-0x0009ffff] mapped at [ffff88000009fff0]
 [    0.000000] Scanning 1 areas for low memory corruption
 [    0.000000] RAMDISK: [mem 0x36b08000-0x3757bfff]
@@ -557,7 +557,7 @@ dules...
 [0;32m  OK  [0m] Started Daily apt upgrade and clean activities.
 [[   54.640790] cloud-init[964]: |    =o* o o.o    |
 [0;32m  OK  [0m] Reached target Timers.
-[[0;32m  OK  [0m[   54.724952] ] cloud-initListening on UUID daemon activation socket.[964]: 
+[[0;32m  OK  [0m[   54.724952] ] cloud-initListening on UUID daemon activation socket.[964]:
 |   +.oo**@+X..   |
 [   54.880502] cloud-init[964]: |.oo o++XOO^+o    |
 [[0;32m  OK  [0m] Reached target Cloud-config availability.
@@ -573,7 +573,7 @@ dules...
 [0;32m  OK  [0m] Started iSCSI initiator daemon (iscsid).
 [   55.409039] cloud-init[964]: +---[DSA 1024]----+
 [   55.538994] cloud-init[964]: |*+*= E   o=.*.   |
-[   55.542507]          cloud-initStarting Login to default iSCSI targets...[964]: 
+[   55.542507]          cloud-initStarting Login to default iSCSI targets...[964]:
 |.Xo..  . .oB..   |
 [   55.624478] cloud-init[964]: |o o o o o.oo.    |
 [   55.628641] [[0;32m  OK  [0m] Reached target Sockets.
@@ -598,15 +598,15 @@ cloud-init[964]: |.+   = . oo.     |
 [   56.216852] cloud-init[964]: SHA256:KWmspXMxNXlPkuCgAVaxCXv1RQSV+NBJ/MLwGN6kWfE root@ubuntu-xenial
 [[0;32m  OK  [0m] Started ACPI event daemon.
 [   56.356489] cloud-init[964]: The key's randomart image is:
-[   56.432456] cloud-init[[964]: [0;32m  OK  [0m+---[ECDSA 256]---+] 
+[   56.432456] cloud-init[[964]: [0;32m  OK  [0m+---[ECDSA 256]---+]
 Started D-Bus System Message Bus.
 [   56.433029] cloud-init[964]: |  +o+.o oXB+     |
 [   56.472270] cloud-init[964]: | . o * +=+Bo     |
 [   56.512331] cloud-init[964]: |  . =  .*#+.E    |
-[   56.564377]          cloud-initStarting /etc/rc.local Compatibility...[964]: 
+[   56.564377]          cloud-initStarting /etc/rc.local Compatibility...[964]:
 |   . . o=+*+.    |
 [   56.564720] cloud-init[964]: |      O S  ..    |
-[   56.704362]          cloud-initStarting Accounts Service...[964]: 
+[   56.704362]          cloud-initStarting Accounts Service...[964]:
 |     = +         |
 [   56.704573] cloud-init[964]: |    + .          |
 [   56.808365] cloud-init[964]: |     o           |
@@ -691,7 +691,7 @@ Started D-Bus System Message Bus.
 [[0;32m  OK  [0m] Started Apply the settings specified in cloud-config.
          Starting Execute cloud user/final scripts...
 ci-info: no authorized ssh keys fingerprints found for user ubuntu.
-<14>Oct  2 01:33:21 ec2: 
+<14>Oct  2 01:33:21 ec2:
 <14>Oct  2 01:33:21 ec2: #############################################################
 <14>Oct  2 01:33:21 ec2: -----BEGIN SSH HOST KEY FINGERPRINTS-----
 <14>Oct  2 01:33:21 ec2: 1024 SHA256:UTRPIbxuREdjOoLjwI8avPp7sHgx7BAczJxEdoRLWXY root@ubuntu-xenial (DSA)
@@ -782,13 +782,13 @@ ubuntu-xenial login:          Stopping Authenticate and Authorize Users to Run P
 [[0;32m  OK  [0m] Stopped Raise network interfaces.
 [[0;32m  OK  [0m] Stopped target Local File Systems.
          Unmounting /run/user/1000...
-         Unmounting /home/ubuntu/toro-net-test...
+         Unmounting /home/ubuntu/toro-net...
 [[0;32m  OK  [0m] Stopped Apply Kernel Variables.
 [[0;32m  OK  [0m] Stopped target Network (Pre).
 [[0;32m  OK  [0m] Stopped Initial cloud-init job (pre-networking).
 [[0;32m  OK  [0m] Stopped Load Kernel Modules.
 [[0;32m  OK  [0m] Unmounted /run/user/1000.
-[[0;32m  OK  [0m] Unmounted /home/ubuntu/toro-net-test.
+[[0;32m  OK  [0m] Unmounted /home/ubuntu/toro-net.
 [[0;32m  OK  [0m] Reached target Unmount All Filesystems.
 [[0;32m  OK  [0m] Stopped target Local File Systems (Pre).
 [[0;32m  OK  [0m] Stopped Remount Root and Kernel File Systems.
